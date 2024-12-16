@@ -10,4 +10,24 @@
 # print(elem)
 # print(unordered_set)
 
+# sets operations
 
+set1={1,2,6}
+set2={4,5,3}
+print(set1)
+print(set2)
+# print(set1 | set2)
+# print(set1-set2)
+# print(set1 ^ set2)
+print(set1>=set2)
+print(set1.isdisjoint(set2))
+
+for e in set1:
+    print(e)
+
+tuple_s = tuple(set1)
+print(tuple_s)
+
+new_s = set1.copy()
+print(new_s)
+print(len(set1))
